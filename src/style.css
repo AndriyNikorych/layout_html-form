@@ -1,1 +1,19 @@
-/* styles go here */
+body {
+  margin: 0;
+}
+
+.field-set {
+  margin-bottom: 20px;
+}
+
+/* div {
+  padding: 5px 10px 5px 0;
+} */
+
+legend {
+  display: inline;
+}
+
+input {
+  margin: 5px;
+}
