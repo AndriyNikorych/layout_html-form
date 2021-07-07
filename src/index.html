@@ -11,14 +11,17 @@
   </head>
 
   <body>
-    <!-- <h1>HTML Form</h1> -->
     <script type="text/javascript" src="./main.js"></script>
 
     <main class="main">
-      <form action="https://mate-academy-form-lesson.herokuapp.com/create-application" class="field-form"
-        onsubmit="onSubmit()" method="post">
+      <form
+        action="https://mate-academy-form-lesson.herokuapp.com/create-application"
+        class="field-form"
+        onsubmit="onSubmit()"
+        method="POST"
+      >
         <fieldset class="field-set" name="personal-information">
-          <legend>Personal information</legend>
+          <legend class="legend">Personal information</legend>
 
           <div class="field-surname">
             <label for="surname">Surname:</label>
@@ -76,7 +79,7 @@
         </fieldset>
 
         <fieldset class="field-set" name="registration">
-          <legend>Registration</legend>
+          <legend class="legend">Registration</legend>
 
           <div class="field-email">
             <label for="email">E-mail:</label>
@@ -104,7 +107,7 @@
         </fieldset>
 
         <fieldset class="field-set" name="interesting-facts">
-          <legend>An interesting fact about you!</legend>
+          <legend class="legend">An interesting fact about you!</legend>
 
           <div class="field-interest-cats">
             Do you love cats?
@@ -114,7 +117,8 @@
                 name="cats"
                 value="yes"
                 id="catsy"
-              > Yes
+              >
+              Yes
             </label>
             <label for="catsn">
               <input
@@ -122,7 +126,8 @@
                name="cats"
                value="no"
                id="catsn"
-              > No
+              >
+              No
             </label>
           </div>
 
@@ -173,7 +178,7 @@
         </fieldset>
 
         <fieldset class="field-set" name="additional-info">
-          <legend>Additional info:</legend>
+          <legend class="legend">Additional info:</legend>
           <div class="field-comments">
             <label for="comments">Comments</label>
             <textarea
@@ -181,7 +186,8 @@
               id="comments"
               cols="20"
               rows="2"
-           ></textarea>
+            >
+            </textarea>
           </div>
 
           <div class="field-recommend">
